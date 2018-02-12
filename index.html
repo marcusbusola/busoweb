@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+    <meta http-equiv="content-language" content="en">
+    <meta name="google" content="notranslate" />
+    <title>Julie Bonnemoy - Portfolio</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" itemprop="description" content="Amsterdam based art director specialized in branding, packaging, retail communication and web design.">
+
+    <meta property="og:title" content="Julie Bonnemoy - Portfolio">
+    <meta property="og:description" content="Amsterdam based art director specialized in branding, packaging, retail communication and web design.">
+    <meta property="og:url" content="https://www.juliebonnemoy.com">
+    <meta property="og:image" content="https://juliebonnemoy.com/images/share.png">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Julie Bonnemoy - Portfolio">
+
+    <meta property="twitter:title" content="Julie Bonnemoy - Portfolio">
+    <meta property="twitter:description" content="Amsterdam based art director specialized in branding, packaging, retail communication and web design.">
+    <meta property="twitter:url" content="https://www.juliebonnemoy.com">
+    <meta property="twitter:image" content="https://juliebonnemoy.com/images/share.png">
+    <meta property="twitter:type" content="article">
+
+
+
+    <link id="css-bundle" rel="stylesheet" href="./build/css/app.css" media="screen">
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #f7f5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loader"></div>
+    <div class="root"></div>
+
+    <script src="./vendors/three.min.JS"></script>
+    <script src="./vendors/MarchingCubes.js"></script>
+    <script src="./vendors/FresnelShader.js"></script>
+
+    <script src="./build/js/app.js"></script>
+    <script>
+        window.onload = function () {
+            window.Application.init();
+            window.Application.load();
+        };
+    </script>
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Julie Bonnemoy",
+            "alternateName": "Julie Bonnemoy - Portfolio",
+            "url": "https://www.juliebonnemoy.com"
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "https://www.juliebonnemoy.com"
+        }
+    </script>
+</body>
+
+</html>
